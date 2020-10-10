@@ -6,9 +6,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import os
 
-pip install yfinance
-
-
 # Enter ticker for a particular stock ( Default ticker of google)
 ticker = input("Enter ticker: (Enter 'x' for default ticker (GOOGLE) ")
 
