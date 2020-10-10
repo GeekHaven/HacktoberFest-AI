@@ -34,9 +34,9 @@ data = yf.download(ticker, start=d1, end=d2, interval='1m')
 print(data)
 
 # Convert the downloaded data in a csv file
-data.to_csv("Intradata.py")
+data.to_csv("Intradata.csv")
 
 
 # Reading and printing first few columns of the created csv file
-dataset = pd.read_csv("Intradata.py")
+dataset = pd.read_csv("Intradata.csv")
 dataset.head()
