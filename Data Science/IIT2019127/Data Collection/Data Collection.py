@@ -6,8 +6,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import os
 
-pip install yfinance
-
 
 # List of assets
 ticker = ['^NSEI', 'MCX.NS', 'ETH-INR', '^DJI', '^BSESN']
